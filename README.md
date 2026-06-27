@@ -2,7 +2,6 @@
 
 A RESTful backend API built using **Node.js, Express.js, and PostgreSQL** that allows users to browse jobs, apply for jobs, and track application statuses. The system also provides admin functionalities for managing companies, job postings, and applications.
 
----
 
 ## Features
 
@@ -47,8 +46,6 @@ A RESTful backend API built using **Node.js, Express.js, and PostgreSQL** that a
 * Protected Routes
 * Secure Password Storage
 
----
-
 ## Tech Stack
 
 * Node.js
@@ -59,11 +56,8 @@ A RESTful backend API built using **Node.js, Express.js, and PostgreSQL** that a
 * express-validator
 * dotenv
 
----
-
 ## Project Structure
 
-```text
 job-board-api
 │
 ├── config
@@ -91,9 +85,7 @@ job-board-api
 ├── .gitignore
 ├── package.json
 └── server.js
-```
 
----
 
 ## Database Schema
 
@@ -136,8 +128,6 @@ job-board-api
 | status     | VARCHAR(50) |
 | applied_at | TIMESTAMP   |
 
----
-
 ## API Endpoints
 
 ### Authentication
@@ -148,7 +138,6 @@ job-board-api
 | POST   | /api/auth/login    |
 | GET    | /api/auth/profile  |
 
----
 
 ### Companies
 
@@ -160,7 +149,6 @@ job-board-api
 | PUT    | /api/companies/:id |
 | DELETE | /api/companies/:id |
 
----
 
 ### Jobs
 
@@ -172,7 +160,6 @@ job-board-api
 | PUT    | /api/jobs/:id |
 | DELETE | /api/jobs/:id |
 
----
 
 ### Applications
 
@@ -182,22 +169,18 @@ job-board-api
 | GET    | /api/applications/my  |
 | PUT    | /api/applications/:id |
 
----
 
 ## Installation
 
 ### Clone Repository
 
-```bash
 git clone https://github.com/your-username/job-board-api.git
 cd job-board-api
-```
 
 ### Install Dependencies
 
-```bash
 npm install
-```
+
 
 ### Create .env File
 
