@@ -170,6 +170,10 @@ job-board-api
 | PUT    | /api/applications/:id |
 
 
+## Live API
+
+https://job-board-api-v594.onrender.com
+
 ## Installation
 
 ### Clone Repository
@@ -227,7 +231,6 @@ POST /api/auth/register
 * Docker Deployment
 * Unit Testing with Jest
 
----
 
 ## Author
 
